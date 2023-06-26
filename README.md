@@ -1,5 +1,5 @@
 # Equipment Management System
-This is a project I worked on during the duration of my spring 2023 semester at UTSA. The course was Advanced Software Engineering, and the result is an application hosted on an AWS server, utilizing InnoDB and MySQL to store and query over 5 million rows of records, and PHP and HTML for backend and frontend coding.
+This is a project I worked on during the duration of my spring 2023 semester at UTSA. The course was Advanced Software Engineering, and the result is an application hosted on an AWS server, utilizing InnoDB and MySQL to store and query over 5 million rows of records, and PHP and HTML for backend and frontend design.
 # Import
 The import directory holds the files to perform an import onto the server, into the equipment database, import-args.php is where the parsing and reading of data is done. In order to save space on the database, there are seperate tables containing manufacturer names and types of devices. The database holds an item, each item has an auto-id, type, manufacturer, and a unique SN. 
 # Web-Endpoint
